@@ -1,5 +1,6 @@
 @echo off
-echo --- Performing git pull update... ---
-git pull
-echo --- Update completed! ---
+echo --- Downloading latest version from git (overwriting local changes)... ---
+git fetch --all
+git reset --hard origin/main
+echo --- Update completed! All local changes have been overwritten. ---
 pause 

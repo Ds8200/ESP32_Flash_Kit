@@ -1,0 +1,36 @@
+{
+  "ui": {
+    "window_width": 797,
+    "window_height": 594,
+    "window_x": 241,
+    "window_y": 54,
+    "theme": "default",
+    "auto_scan_ports": true,
+    "auto_detect_files": true
+  },
+  "flashing": {
+    "default_chip_type": "esp32",
+    "default_flash_mode": "dio",
+    "default_baud_rate": 115200,
+    "erase_flash": false,
+    "verify_flash": true,
+    "compress": true,
+    "timeout": 300
+  },
+  "files": {
+    "last_bootloader_path": "..\\binaries\\bootloader.bin",
+    "last_partitions_path": "..\\binaries\\partitions.bin",
+    "last_firmware_path": "..\\binaries\\firmware.bin",
+    "last_working_directory": ".\\ESP32_Flasher_Tool"
+  },
+  "addresses": {
+    "bootloader": "0x1000",
+    "partitions": "0x8000",
+    "firmware": "0x10000"
+  },
+  "logging": {
+    "level": "INFO",
+    "save_logs": true,
+    "max_log_files": 10
+  }
+}

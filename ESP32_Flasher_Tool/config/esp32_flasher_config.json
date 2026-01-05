@@ -1,9 +1,9 @@
 {
   "ui": {
-    "window_width": 1204,
-    "window_height": 779,
-    "window_x": 245,
-    "window_y": -37,
+    "window_width": 1536,
+    "window_height": 793,
+    "window_x": 1920,
+    "window_y": -278,
     "theme": "default",
     "auto_scan_ports": true,
     "auto_detect_files": true
